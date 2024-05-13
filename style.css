@@ -1,95 +1,191 @@
-body{
-    background-color:#F9F9FA;
+body {
+  background-color: #f9f9fa;
 
-    /* Первый блок */
+  /* ПЕРВЫЙ БЛОК*/
 }
 .block__title {
-    margin-top: 80px;
-    margin-bottom: 80px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  max-width: 100%;
 }
 
-.conteiner {
-    max-width: 845px;
-    margin: 0 auto;
-}
-
-h1 {
-    font-family: "Open Sans", sans-serif;
-        font-weight: 600;
-        font-size: 46px;
-        text-align: center;
-        /* font-style: normal; */
-        color:#110C11;
-        width: 100%;
-        margin: 0 auto;
-      }
-.subtitle {
-    font-size: 12px;
-    font-weight: 800;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: "Open Sans", sans-serif;
-    margin-bottom: 22px;
-}
-
-
-.subtitle {
-    font-size: 12px;
-text-transform: uppercase;
-background: linear-gradient(45deg, #4343FF 33%, #F96D6D 66%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-color: #0B2349;
-display: table;
-margin: 20px auto;
-}
-
-
-.blocs {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 50px;
-}
-.blocs__content {
-    padding: 22px;
-    max-width: 27%;
-    margin: 17px auto;
-    background-color: rgb(255, 255, 255);
-}
-
-.blocs__tittle {
-    font-family: "Open Sans", sans-serif;
-    text-transform: uppercase;
-    font-style: 17px;
-    color:#110C11;
-    font-weight: 700;
-}
-
-.blocs__desc {
-    font-family: "Open Sans", sans-serif;
-    color:#5C5C5C;
-    font-style: 17px;
-    line-height: 26px;
-    font-weight: 400;
+.container {
+  width: 845px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 500px) {
-    h1 {
-        font-size: 30px;
-    }
+  .container {
+    width: 95%;
+  }
+}
 
-    .block__title  {
-        margin-top: 60px;
-        margin-bottom: 30px;
-    }
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 46px;
+  text-align: center;
+  color: #110c11;
+  width: 100%;
+  margin: 0 auto;
+}
 
-    .blocs {
-        margin: 0px 30px;
-    }
-    .blocs__content {
-        max-width: 100%;
-    }
+@media screen and (max-width: 500px) {
+  h2 {
+    font-size: 30px;
+  }
+}
+
+.block__title_subtitle {
+  font-size: 12px;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #4343ff 33%, #f96d6d 66%);
+  -webkit-background-clip: text;
+  color: #0b2349;
+  -webkit-text-fill-color: transparent;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 22px;
+}
+
+.blocs__one {
+  margin: 0 auto;
+  max-width: 1440px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+@media screen and (max-width: 500px) {
+  .blocs_one {
+    margin: 0px 30px;
+  }
+}
+.blocs__one_content {
+  padding: 22px;
+  max-width: 350px;
+  margin: 17px auto;
+  background-color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 500px) {
+  .blocs__one_content {
+    max-width: 100%;
+  }
+}
+
+.blocs__one_tittle {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-style: 17px;
+  color: #110c11;
+  font-weight: 700;
+}
+@media screen and (max-width: 500px) {
+  .blocs__one {
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+}
+
+.blocs__one_desc {
+  font-family: "Open Sans", sans-serif;
+  color: #5c5c5c;
+  font-style: 17px;
+  line-height: 26px;
+  font-weight: 400;
 }
 
 /* __________________________________________________ */
+/* ВТОРОЙ БЛОК */
+
+.block__two {
+  margin: 0 auto;
+  max-width: 1440px;
+  background-color: #fff;
+  display: flex;
+  padding: 60px 0px;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 500px) {
+  .block__two {
+    width: 90%;
+  }
+}
+
+.block__two_one {
+  max-width: 500px;
+}
+.block__two_one-tittle {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  color: #56565a;
+  margin: 0;
+}
+
+.block__two_one-desc {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.block__two_one-buttons button {
+  background-color: #0a467e;
+  color: white;
+  padding: 15px 40px;
+  border: none;
+}
+
+.block__two_one-bonus {
+  max-width: 400px;
+}
+
+.block-bonus {
+  background-color: #f7f7f7;
+  padding: 22px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.block-bonus img {
+  width: 30px;
+  height: 30px;
+}
+
+.img {
+  width: 30px;
+  height: 30px;
+}
+
+.block-bonus_title {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  line-height: 22px;
+  color: #56565a;
+}
+
+.block-bonus_desc {
+  color: #56565a;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.block__two_three {
+  max-width: 400px;
+  width: 1340px;
+}
+.block__two_three .block-bonus {
+  background-color: #f7f7f7;
+  text-align: center;
+  margin-bottom: 15px;
+  padding: 100px 22px;
+}
 
