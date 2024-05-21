@@ -1,32 +1,36 @@
-.block__two {
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.programs__content {
   margin: 0 auto;
   max-width: 1440px;
   background-color: #fff;
   display: flex;
-  padding: 60px 10px;
+  padding: 60px 0px;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
 
 @media screen and (max-width: 1000px) {
-  .block__two {
+  .programs__content {
     display: block;
   }
 }
 
-.block__two_one {
+.programs__offer {
   max-width: 450px;
 }
 
 @media screen and (max-width: 1229px) {
-  .block__two_one {
+  .programs__offer {
     max-width: 350px;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  .block__two_one {
+  .programs__offer {
     max-width: 90%;
     margin-bottom: 20px;
     text-align: center;
@@ -35,7 +39,7 @@
   }
 }
 
-.block__two_one-tittle {
+.programs__offer_tittle {
   font-family: "Open Sans", sans-serif;
   font-size: 30px;
   font-weight: 900;
@@ -43,45 +47,45 @@
   margin: 0;
 }
 
-.block__two_one-desc {
+.programs__offer_desc {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
 }
 
-.block__two_one-buttons button {
+.programs__offer_buttons button {
   background-color: #0a467e;
   color: white;
   padding: 15px 40px;
   border: none;
 }
 
-.block__two_one-bonus {
+.programs__cards {
   max-width: 400px;
 }
 
 @media screen and (max-width: 1229px) {
-  .block__two_one-bonus {
+  .programs__cards {
     max-width: 300px;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  .block__two_one-bonus {
+  .programs__cards {
     max-width: 90%;
     margin: 0 auto;
   }
 }
 
-.block-bonus {
+.programs__cards_mini {
   background-color: #f7f7f7;
   padding: 22px;
   text-align: center;
   margin-bottom: 15px;
 }
 
-.block-bonus img {
+.programs__cards_mini img {
   width: 30px;
   height: 30px;
 }
@@ -91,7 +95,7 @@
   height: 30px;
 }
 
-.block-bonus_title {
+.programs__cards_title {
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
@@ -99,7 +103,7 @@
   color: #56565a;
 }
 
-.block-bonus_desc {
+.programs__cards_desc {
   color: #56565a;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -107,34 +111,34 @@
   line-height: 19px;
 }
 
-.block__two_three {
+.programs__cards_max {
   max-width: 400px;
 }
 
 @media screen and (max-width: 1229px) {
-  .block__two_three {
+  .programs__cards_max {
     max-width: 300px;
     margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  .block__two_three {
+  .programs__cards_max {
     max-width: 90%;
     margin: 0 auto;
     margin-bottom: 20px;
   }
 }
 
-.block__two_three .block-bonus {
+.programs__cards_max .programs__cards_mini {
   background-color: #f7f7f7;
   text-align: center;
   margin-bottom: 15px;
-  padding: 100px 22px;
+  padding: 98px 22px;
 }
 
 @media screen and (max-width: 1000px) {
-  .block__two_three .block-bonus {
+  .programs__cards_max .programs__cards_mini {
     padding: 22px;
   }
 }
