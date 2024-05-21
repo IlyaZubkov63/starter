@@ -1,0 +1,144 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.programs__content {
+  margin: 0 auto;
+  max-width: 1440px;
+  background-color: #fff;
+  display: flex;
+  padding: 60px 0px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1000px) {
+  .programs__content {
+    display: block;
+  }
+}
+
+.programs__offer {
+  max-width: 450px;
+}
+
+@media screen and (max-width: 1229px) {
+  .programs__offer {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .programs__offer {
+    max-width: 90%;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}
+
+.programs__offer_tittle {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  color: #56565a;
+  margin: 0;
+}
+
+.programs__offer_desc {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.programs__offer_buttons button {
+  background-color: #0a467e;
+  color: white;
+  padding: 15px 40px;
+  border: none;
+}
+
+.programs__cards {
+  max-width: 400px;
+}
+
+@media screen and (max-width: 1229px) {
+  .programs__cards {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .programs__cards {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+
+.programs__cards_mini {
+  background-color: #f7f7f7;
+  padding: 22px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.programs__cards_mini img {
+  width: 30px;
+  height: 30px;
+}
+
+.img {
+  width: 30px;
+  height: 30px;
+}
+
+.programs__cards_title {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  line-height: 22px;
+  color: #56565a;
+}
+
+.programs__cards_desc {
+  color: #56565a;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.programs__cards_max {
+  max-width: 400px;
+}
+
+@media screen and (max-width: 1229px) {
+  .programs__cards_max {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .programs__cards_max {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}
+
+.programs__cards_max .programs__cards_mini {
+  background-color: #f7f7f7;
+  text-align: center;
+  margin-bottom: 15px;
+  padding: 98px 22px;
+}
+
+@media screen and (max-width: 1000px) {
+  .programs__cards_max .programs__cards_mini {
+    padding: 22px;
+  }
+}
