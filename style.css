@@ -50,26 +50,12 @@ h2 {
   margin-bottom: 22px;
 }
 
-.blocs__one {
-  margin: 0 auto;
-  max-width: 1440px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-@media screen and (max-width: 500px) {
-  .blocs_one {
-    margin: 0px 30px;
-  }
-}
-
 .solutions__cards {
   display: flex;
   flex-wrap: wrap;
 }
 
-.solutions__card{
+.solutions__card {
   padding: 22px;
   max-width: 350px;
   margin: 5px auto;
@@ -77,12 +63,12 @@ h2 {
 }
 
 @media screen and (max-width: 500px) {
-  .cards__content {
+  .solutions__card {
     max-width: 100%;
   }
 }
 
-.cards__content_title {
+.solutions__card_title {
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   font-style: 17px;
@@ -90,14 +76,7 @@ h2 {
   font-weight: 700;
 }
 
-@media screen and (max-width: 500px) {
-  .blocs__one {
-    margin-top: 60px;
-    margin-bottom: 30px;
-  }
-}
-
-.cards__content_desc {
+.solutions__card_desc {
   font-family: "Open Sans", sans-serif;
   color: #5c5c5c;
   font-style: 17px;
