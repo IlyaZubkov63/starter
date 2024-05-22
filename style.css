@@ -3,15 +3,15 @@ body {
 
   /* ПЕРВЫЙ БЛОК*/
 }
-.block__title {
+.solutions__title {
   margin-top: 80px;
   margin-bottom: 80px;
   max-width: 100%;
 }
 
 .container {
-  width: 845px;
-  margin: 0 auto;
+  max-width: 1200px;
+  margin: 40px auto;
 }
 
 @media screen and (max-width: 500px) {
@@ -28,6 +28,7 @@ h2 {
   color: #110c11;
   width: 100%;
   margin: 0 auto;
+  max-width: 845px;
 }
 
 @media screen and (max-width: 500px) {
@@ -36,7 +37,7 @@ h2 {
   }
 }
 
-.block__title_subtitle {
+.solutions__title_subtitle {
   font-size: 12px;
   font-weight: 800;
   text-align: center;
@@ -56,31 +57,39 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 @media screen and (max-width: 500px) {
   .blocs_one {
     margin: 0px 30px;
   }
 }
-.blocs__one_content {
+
+.solutions__cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.solutions__card {
   padding: 22px;
   max-width: 350px;
-  margin: 17px auto;
+  margin: 5px auto;
   background-color: rgb(255, 255, 255);
 }
 
 @media screen and (max-width: 500px) {
-  .blocs__one_content {
+  .solutions__card {
     max-width: 100%;
   }
 }
 
-.blocs__one_tittle {
+.solutions__card_title {
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   font-style: 17px;
   color: #110c11;
   font-weight: 700;
 }
+
 @media screen and (max-width: 500px) {
   .blocs__one {
     margin-top: 60px;
@@ -88,7 +97,7 @@ h2 {
   }
 }
 
-.blocs__one_desc {
+.solutions__card_desc {
   font-family: "Open Sans", sans-serif;
   color: #5c5c5c;
   font-style: 17px;
