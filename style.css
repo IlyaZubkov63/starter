@@ -1,0 +1,85 @@
+body {
+  background-color: #f9f9fa;
+
+  /* ПЕРВЫЙ БЛОК*/
+}
+.solutions__title {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 95%;
+  }
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 46px;
+  text-align: center;
+  color: #110c11;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 845px;
+}
+
+@media screen and (max-width: 500px) {
+  h2 {
+    font-size: 30px;
+  }
+}
+
+.solutions__title_subtitle {
+  font-size: 12px;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #4343ff 33%, #f96d6d 66%);
+  -webkit-background-clip: text;
+  color: #0b2349;
+  -webkit-text-fill-color: transparent;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 22px;
+}
+
+.solutions__cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.solutions__card {
+  padding: 22px;
+  max-width: 350px;
+  margin: 5px auto;
+  background-color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 500px) {
+  .solutions__card {
+    max-width: 100%;
+  }
+}
+
+.solutions__card_title {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-style: 17px;
+  color: #110c11;
+  font-weight: 700;
+}
+
+.solutions__card_desc {
+  font-family: "Open Sans", sans-serif;
+  color: #5c5c5c;
+  font-style: 17px;
+  line-height: 26px;
+  font-weight: 400;
+}
